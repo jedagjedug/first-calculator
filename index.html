@@ -1,0 +1,51 @@
+<!-- https://dribbble.com/shots/5021040-Daily-UI-004-Calculator -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  </head>
+
+  <body class="w-screen h-screen flex justify-center items-center bg-gray-200">
+    <div class="bg-white shadow-xl rounded p-5">
+      <header class="flex flex-col text-right">
+        <p class="text-gray-400">100 + 20</p>
+        <h1 class="text-4xl font-semibold">120</h1>
+      </header>
+
+      <main class="mt-10 grid grid-cols-4 gap-10 items-center justify-items-center text-gray-400 font-semibold text-2xl">
+        <div class="cursor-pointer text-xl text-gray-600">AC</div>
+        <div class="cursor-pointer text-xl text-gray-600"><i class="fas fa-backspace"></i></div>
+        <div class="cursor-pointer ">%</div>
+        <div class="cursor-pointer ">÷</div>
+        <div class="cursor-pointer ">7</div>
+        <div class="cursor-pointer ">8</div>
+        <div class="cursor-pointer ">9</div>
+        <div class="cursor-pointer ">×</div>
+        <div class="cursor-pointer ">4</div>
+        <div class="cursor-pointer ">5</div>
+        <div class="cursor-pointer ">6</div>
+        <div class="cursor-pointer ">-</div>
+        <div class="cursor-pointer ">1</div>
+        <div class="cursor-pointer ">2</div>
+        <div class="cursor-pointer ">3</div>
+        <div class="cursor-pointer ">+</div>
+        <div class="cursor-pointer ">±</div>
+        <div class="cursor-pointer ">0</div>
+        <div class="cursor-pointer ">.</div>
+        <div class="cursor-pointer ">=</div>
+      </main>
+    </div>
+   
+    <script src="index.js"></script>
+  </body>
+</html>
